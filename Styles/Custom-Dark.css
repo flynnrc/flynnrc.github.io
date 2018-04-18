@@ -25,7 +25,13 @@ div.panel-heading {
 }
 
 .jumbotron{
-    background-color: #eee;
+    /* background-color: #eee; */
+    background-color: #25272a;
+    color: #21CE99;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    padding-top: 80px;
+    /* color:#21CE99; */
 }
 
 @media (max-width: 899px) { 
@@ -61,8 +67,9 @@ div.panel-heading {
   }
 
 body{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     /* background-color: #DAE3E7; */
+    background-color: #25272a;
 }
 
 .list-inline{
@@ -72,7 +79,8 @@ body{
 
 /* section boxes for content sections */
 .section > div{
-    background-color:#eee;
+    /* background-color:#eee; */
+    background-color: #25272a;
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -81,7 +89,7 @@ body{
 /* skill bar for skills display */
 .skills-container {
     width: 100%;
-    background-color: #ddd;
+    background-color: #25272a;
   }
 .skills {
     text-align: right;
@@ -92,11 +100,28 @@ body{
 
 .html {width: 90%; background-color: #4CAF50;}
 
+.skill-name{
+    color: #808080;  
+}
 .skill-rating-text{
     float: right;
     color: #808080;
 }
 
-shortcut > section{
-    color:#4CAF50;
+p{
+    color: #c5c8c6;
+    font-size: 16px;
+    /* font-family: "Titillium Web","Helvetica Neue",sans-serif; */
 }
+
+h1{
+    color:#21CE99;
+}
+
+.itsgonnabehuge{
+    font-size: 60px;
+}
+
+h2{
+    color: #D0D1D3;
+} 

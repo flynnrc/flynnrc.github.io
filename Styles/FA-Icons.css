@@ -28,3 +28,14 @@
     font-size:48px;
     color:#00c;
 }
+
+.social-fa-icon:hover{
+    font-size:48px;
+    color:#898D90;
+}
+
+.social-fa-icon{
+    font-size:48px;
+    /* color:rgb(29, 161, 242) */
+    color: #21CE99;
+}
