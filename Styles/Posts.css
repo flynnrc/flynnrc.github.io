@@ -1,0 +1,62 @@
+/***********************
+ *        TECH
+ ***********************/
+
+.tech h3 {
+    margin: 0px 0px 5px 0px;
+}
+
+.tech p {
+    margin: 0px
+}
+
+.tech {
+    margin-bottom: 30px;
+}
+
+.tech img {
+    width: 100%;
+}
+
+.tech .info > a {
+    margin: 0px 0px 0px 0px;
+}
+
+.tech .info {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.tech h2{
+    color:#898D90;
+}
+
+@media (min-width: 520px) {
+    .tech {
+        margin-bottom: 50px;
+    }
+
+    .tech img {
+        width: 200px;
+    }
+
+    .tech .info > a {
+        margin: 0px 20px 0px 0px;
+    }
+
+    .tech:nth-child(even) .info > a {
+        margin: 0px 0px 0px 20px;
+    }
+
+    .tech .info {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: flex-start;
+    }
+
+    .tech:nth-child(even) .info {
+        flex-flow: row-reverse nowrap;
+        justify-content: flex-end;
+    }
+}

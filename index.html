@@ -15,6 +15,7 @@
     <!-- Custom styles, place last to overide -->
     <link rel="stylesheet" type="text/css" href="Styles/FA-Icons.css">
     <link rel="stylesheet" type="text/css" href="Styles/Custom-Dark.css">
+    <link rel="stylesheet" type="text/css" href="Styles/Posts.css">
 </head>
 <body>
     <div class=".container-full">
@@ -44,12 +45,54 @@
                     <div class="inner-section">
                         <h1 class="itsgonnabehuge">Hello there!</h1>
                         <p>Welcome to my Github Page. My name is Bob and I am a software engineer. My career journey grew from a lifelong passion for science and technology. I have a formal degree in computer science, and I also hold a degree in biology that comes with a general knowledge of physics, chemistry, and scientific research. All of that hard work paid off, because now I get to solve lots of cool problems with people and computers! My current professional setting is at a healthcare company, where we developed a large set of clinical applications centered around an electronic health record. On the web and mobile team, I got to work with not only user facing applications, but also services, builds, automated testing, and continuous integration. Currently I am working on starting a blog and getting my projects online. I want to create a few fun and open source applications for people to enjoy!</p>
-                        </div>
+                    </div>
                 </section>
                 <section class="Projects section">
                     <div class="inner-section">
                         <h1 class="itsgonnabehuge">Projects</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>           
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>            -->
+                        <div class="tech">
+                            <h2>Github-IO Static Page</h2>
+                            <div class="info">
+                                <a href="#"><img src="./images/GithubPage.png"></img></a>
+                                <div>
+                                    <p>I used npm live server along with visual studio code to create this simplistic static webpage for highlighting my Github Projects. 
+                                        I used bootstrap and created some custom styles. 
+                                        <a href="https://github.com/flynnrc/flynnrc.github.io" class="small-font"> View Source</a> 
+                                    </p>
+                                    <br/>
+                                    <p>Color Pallet: (#898D90, #D0D1D3, #040D14, #21CE99. #FFF)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech">
+                            <h2>Twilio Receiver-Sender Service</h2>
+                            <div class="info">
+                                <a href="https://github.com/flynnrc/TwilioReceiverService"><img src="./images/apple-email-iphone-17663.jpg"></img></a>
+                                <div>
+                                    <p>I created a twilio listener service and deployed it to the Microsoft Azure Cloud. 
+                                        The service works when linked to a twilio account (paid or trail version) and it bounces SSM or MSS messages sent from a twilio number to a listening program.
+                                        I found it useful for automating an application that required a local phone number for authentication.
+                                        There is a connection-hub minor parallelization. (Repo versions: (1) C# linqpad (2) C# Visual Studio Project).  
+                                    </p>
+                                    <a href="https://github.com/flynnrc/TwilioReceiverService" class="small-font"> View Source</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech">
+                            <h2>Selenium Framework</h2>
+                            <div class="info">
+                                <a href="https://github.com/flynnrc/SeleniumTestProject/tree/master/SeleniumTestProject"><img src="./images/selenium.png"></img></a>
+                                <div>
+                                    <p>I created a configurable test framework using Selenium and C#. 
+                                    This is a shell of the project with a sample test for Google. 
+                                    Browsers can be configured in the app.config and by adding a configuration class.
+                                    It contains classes for working with Twilio, Gmail, SQL, and Slack. It can report Javascript errors, perform retries, and take screenshots as part of error logging.
+                                    </p>
+                                    <a href="https://github.com/flynnrc/SeleniumTestProject/tree/master/SeleniumTestProject" class="small-font"> View Source</a>
+                                </div>
+                            </div>
+                        </div>    
                     </div>
                 </section>
                 <section class="Contact section">
