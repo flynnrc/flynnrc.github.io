@@ -32,13 +32,6 @@
             </div>
         </div> 
         <div class="container">
-            <!-- <div class="col-md-12 col-sm-12 col-xs-12">
-                <section class="shortcut section">
-                    <div class="inner-section">
-                        <a href="#Intro">Intro</a> | <a href="#Projects">Projects</a>
-                    </div>
-                </section>
-            </div> -->
             <!-- left hand side -->
             <div class="col-md-8 col-sm-12 col-xs-12">
                 <section class="about section">
@@ -57,23 +50,21 @@
                                 <a href="#"><img src="./images/GithubPage.png"></img></a>
                                 <div>
                                     <p>I used npm live server along with visual studio code to create this simplistic static webpage for highlighting my Github Projects. 
-                                        I used bootstrap and created some custom styles. 
-                                        <a href="https://github.com/flynnrc/flynnrc.github.io" class="small-font"> View Source</a> 
+                                        I used bootstrap and created some of my own styles over it. Color Pallet: (#898D90, #D0D1D3, #040D14, #21CE99. #FFF)
                                     </p>
-                                    <br/>
-                                    <p>Color Pallet: (#898D90, #D0D1D3, #040D14, #21CE99. #FFF)</p>
+                                    <a href="https://github.com/flynnrc/flynnrc.github.io" class="small-font"> View Source</a> 
                                 </div>
                             </div>
                         </div>
                         <div class="tech">
-                            <h2>Twilio Receiver-Sender Service</h2>
+                            <h2>Twilio Receiver Service</h2>
                             <div class="info">
                                 <a href="https://github.com/flynnrc/TwilioReceiverService"><img src="./images/apple-email-iphone-17663.jpg"></img></a>
                                 <div>
-                                    <p>I created a twilio listener service and deployed it to the Microsoft Azure Cloud. 
-                                        The service works when linked to a twilio account (paid or trail version) and it bounces SSM or MSS messages sent from a twilio number to a listening program.
+                                    <p>I created a service that listens for twilio text messages and deployed it to the Microsoft Azure Cloud. 
+                                        The service works when linked to a twilio account and it bounces SSM or MSS messages sent from a twilio number to a listening program.
                                         I found it useful for automating an application that required a local phone number for authentication.
-                                        There is a connection-hub minor parallelization. (Repo versions: (1) C# linqpad (2) C# Visual Studio Project).  
+                                        There is a connection-hub for minor parallelization. (Repo versions: (1) C# linqpad (2) C# Visual Studio Project).  
                                     </p>
                                     <a href="https://github.com/flynnrc/TwilioReceiverService" class="small-font"> View Source</a>
                                 </div>
@@ -85,40 +76,29 @@
                                 <a href="https://github.com/flynnrc/SeleniumTestProject/tree/master/SeleniumTestProject"><img src="./images/selenium.png"></img></a>
                                 <div>
                                     <p>I created a configurable test framework using Selenium and C#. 
-                                    This is a shell of the project with a sample test for Google. 
-                                    Browsers can be configured in the app.config and by adding a configuration class.
-                                    It contains classes for working with Twilio, Gmail, SQL, and Slack. It can report Javascript errors, perform retries, and take screenshots as part of error logging.
+                                    This is a shell of the project with a sample test that performs a Google search. 
+                                    Browsers can be configured in the app.config and by adding a configuration class for a specific browser.
+                                    The project also contains classes for working with Twilio, Gmail, SQL, and Slack. It can report Javascript errors, perform retries, and take screenshots as part of error logging.
                                     </p>
                                     <a href="https://github.com/flynnrc/SeleniumTestProject/tree/master/SeleniumTestProject" class="small-font"> View Source</a>
                                 </div>
                             </div>
-                        </div>    
-                    </div>
-                </section>
-                <section class="Contact section">
-                    <div class="inner-section">
-                        <h1>How to find me...</h1>
-                        <ul class="social">         
-                            <!-- <li><a href="https://github.com/flynnrc"><i class="fa fa-github-square github-blue-fa-icon"></i></a></li> -->
-                            <li><a href="https://twitter.com/SDeveloper_Bob"><i class="fa fa-twitter-square"></i>  @Developer_Bob</a></li>
-                            <li><a href="https://www.linkedin.com/in/robert-c-flynn/"> <i class="fa fa-linkedin-square"></i>  linkedin.com/in/robert-c-flynn</a></li>                    
-                        </ul> 
+                        </div>  
+                        <div class="tech">
+                            <h2>Headless JS Browser Testing</h2>
+                            <div class="info">
+                                <a href="https://github.com/flynnrc/Browser-Testing-CasperJS-PhantomJS"><img src="./images/phantomjs_logo.png"></img></a>
+                                <div>
+                                    <p>Since I used Selenium and PhantomJS to perform headless browser testing, I decided to try out something completely headless with CasperJS and PhantomJS.</p>
+                                    <a href="https://github.com/flynnrc/Browser-Testing-CasperJS-PhantomJS" class="small-font"> View Source</a>
+                                </div>
+                            </div>
+                        </div>   
                     </div>
                 </section>
             </div>
             <!-- smaller righthandside column -->
             <div class="col-md-4 col-sm-12 col-xs-12">
-                <!-- <div class="Twitter section">
-                    <div class="inner-section">
-                        <a class="twitter-timeline" 
-                        href="https://twitter.com/SDeveloper_Bob?ref_src=twsrc%5Etfw"
-                        data-tweet-limit="1"
-                        data-width="300"
-                        data-height="300"
-                        >Tweets by SDeveloper_Bob</a> 
-                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-                    </div>     
-                </div> -->
                 <section class="TechnicalSkills section">
                     <div class="inner-section">
                         <h1>Technical Skills</h1>
@@ -204,5 +184,14 @@
                 </section>
             </div>      
         </div>
+        <!-- <section class="Contact section">
+            <div class="inner-section">
+                <h1>Contact</h1>
+                <ul class="social">         
+                     <li><a href="https://twitter.com/SDeveloper_Bob"><i class="fa fa-twitter-square"></i>  @Developer_Bob</a></li>
+                    <li><a href="https://www.linkedin.com/in/robert-c-flynn/"> <i class="fa fa-linkedin-square"></i>  linkedin.com/in/robert-c-flynn</a></li>                    
+                </ul> 
+            </div>
+        </section> -->
     </body>
 </html>
