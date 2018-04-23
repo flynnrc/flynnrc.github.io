@@ -124,10 +124,10 @@ div.panel-heading {
     text-align: right;
     padding-right: 20px;
     line-height: 20px;
-    color: #4CAF50;
+    color: #21CE99;
   }
 
-.html {width: 90%; background-color: #4CAF50;}
+.html {width: 90%; background-color: #21CE99;}
 
 .skill-name{
     color: #808080;  
@@ -135,4 +135,8 @@ div.panel-heading {
 .skill-rating-text{
     float: right;
     color: #808080;
+}
+
+.progress-bar{
+    background-color: #21CE99;
 }
